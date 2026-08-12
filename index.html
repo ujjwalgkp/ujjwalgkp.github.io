@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ujjwal Yadav — Computer Science & Engineering student, Android and web developer. Explore projects, skills, education, and technical work.">
+  <meta name="theme-color" content="#080b16">
+  <title>Ujjwal Yadav | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ujjwal Yadav home">UY<span>.</span></a>
+      <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">COMPUTER SCIENCE & ENGINEERING</p>
+        <h1>Hi, I'm <span>Ujjwal Yadav.</span></h1>
+        <p class="hero-text">A CSE student building practical software, Android, and web projects. I enjoy turning real-world requirements into useful applications and continuously improving my development skills.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn secondary" href="https://github.com/ujjwalgkp" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/ujjwalgkp" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a>
+        </div>
+        <div class="quick-links">
+          <a href="mailto:uky014601@gmail.com">uky014601@gmail.com</a>
+          <span>•</span>
+          <a href="tel:+918182071710">+91 8182071710</a>
+        </div>
+      </div>
+      <div class="hero-profile">
+        <div class="profile-glow"></div>
+        <div class="profile-frame">
+          <img src="profile.jpg" alt="Ujjwal Yadav" class="profile-photo">
+        </div>
+        <div class="profile-badge">Developer · Learner · Builder</div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-head"><p class="eyebrow">ABOUT ME</p><h2>Building skills through real projects.</h2></div>
+      <div class="about-grid">
+        <p>I'm a Computer Science & Engineering student at GRD IMT, Dehradun. I enjoy programming, learning new concepts, and building practical applications that solve real-world problems.</p>
+        <p>My current technical interests include Java, Python, Android development, Firebase, web technologies, and databases. I personally developed a QR token management application and a library management web application.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head"><p class="eyebrow">TECH STACK</p><h2>Tools I work with.</h2></div>
+        <div class="skill-grid">
+          <article><h3>Programming</h3><p>Python · Java · Kotlin</p></article>
+          <article><h3>Android</h3><p>Android Studio · XML · Firebase Realtime Database</p></article>
+          <article><h3>Web</h3><p>HTML · CSS · JavaScript · PHP · jQuery</p></article>
+          <article><h3>Database</h3><p>DBMS · Firebase data handling</p></article>
+          <article><h3>Development</h3><p>Application logic · QR workflows · Validation systems</p></article>
+          <article><h3>Professional</h3><p>Communication · Collaboration · Adaptability · Problem solving</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head"><p class="eyebrow">SELECTED WORK</p><h2>Projects.</h2></div>
+
+      <article class="project-feature">
+        <div class="project-feature-head">
+          <div>
+            <div class="project-number">01 · FEATURED PROJECT</div>
+            <h3>QR Token Management & Validation App</h3>
+            <p class="project-lead">A customized Android application I personally developed for an institute to create, print, validate, and expire physical QR discount tokens.</p>
+          </div>
+          <div class="tags"><span>Java</span><span>Android</span><span>Firebase</span><span>QR</span></div>
+        </div>
+
+        <div class="project-details">
+          <div>
+            <h4>How it works</h4>
+            <p>Administrators can create batches of unique QR tokens directly from the app and print them on paper with the institute's information. The token carries a unique number that is used by the backend for validation.</p>
+          </div>
+          <div>
+            <h4>Validation & expiry</h4>
+            <p>When an authorized user scans a token, the app reads its unique number and checks Firebase. If the token exists and is still active, the app confirms that it is valid and provides the authorized user with the option to destroy it. Once destroyed, the token is marked as expired in the backend and cannot be reused.</p>
+          </div>
+        </div>
+
+        <div class="architecture">
+          <span>Admin creates token</span><i>→</i><span>Token printed on paper</span><i>→</i><span>Authorized user scans</span><i>→</i><span>Firebase validates</span><i>→</i><span>Token destroyed / expired</span>
+        </div>
+
+        <div class="screenshots">
+          <div class="screenshots-head">
+            <div><h4>App Screenshots</h4><p>Four spaces are reserved for your future 1220 × 2712 screenshots.</p></div>
+            <span class="screenshot-size">1220 × 2712</span>
+          </div>
+          <div class="screenshot-grid">
+            <div class="screenshot-slot"><span>Screenshot 01</span><small>Add image here later</small></div>
+            <div class="screenshot-slot"><span>Screenshot 02</span><small>Add image here later</small></div>
+            <div class="screenshot-slot"><span>Screenshot 03</span><small>Add image here later</small></div>
+            <div class="screenshot-slot"><span>Screenshot 04</span><small>Add image here later</small></div>
+          </div>
+        </div>
+
+        <a class="project-link" href="https://github.com/ujjwalgkp" target="_blank" rel="noopener noreferrer">View my GitHub ↗</a>
+      </article>
+
+      <div class="project-grid secondary-projects">
+        <article class="project">
+          <div class="project-number">02</div>
+          <h3>Library Management Web App</h3>
+          <p>A simple library management web application developed as a project, applying web-development and database concepts.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>jQuery</span></div>
+          <a href="https://github.com/ujjwalgkp" target="_blank" rel="noopener noreferrer">View GitHub ↗</a>
+        </article>
+        <article class="project coming">
+          <div class="project-number">03</div>
+          <h3>More projects coming</h3>
+          <p>This space is ready for future projects and technical work as I continue building my portfolio.</p>
+          <div class="tags"><span>Learning</span><span>Building</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="section-head"><p class="eyebrow">EDUCATION</p><h2>Academic journey.</h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><span>2027</span><div><h3>B.Tech — Computer Science & Engineering</h3><p>GRD IMT, Dehradun · Pursuing</p></div></div>
+        <div class="timeline-item"><span>2022</span><div><h3>10+2 — Science</h3><p>CBSE Board, Uttar Pradesh · 61%</p></div></div>
+        <div class="timeline-item"><span>2020</span><div><h3>10th</h3><p>CBSE Board, Uttar Pradesh · 56%</p></div></div>
+        <div class="timeline-item"><span>ADCA</span><div><h3>Advanced Diploma in Computer Applications</h3><p>Uma Technical Institute</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact container">
+      <div class="contact-box">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have a project, opportunity, or idea?</h2>
+        <p>I'm open to learning opportunities, software development roles, internships, and projects where I can build and contribute.</p>
+        <div class="actions">
+          <a class="btn primary" href="mailto:uky014601@gmail.com">Email Me</a>
+          <a class="btn secondary" href="https://github.com/ujjwalgkp" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a class="btn secondary" href="https://www.linkedin.com/in/ujjwalgkp" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a class="btn secondary" href="resume.pdf" target="_blank" rel="noopener noreferrer">Resume ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><span>© <span id="year"></span> Ujjwal Yadav</span><span>Built for GitHub Pages</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
