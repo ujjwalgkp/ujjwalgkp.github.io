@@ -59,19 +59,6 @@ Uma Technical Institute
 - Vanilla JavaScript
 - GitHub Pages
 
-## 📁 Repository Structure
-
-```text
-ujjwalgkp.github.io/
-├── index.html
-├── style.css
-├── script.js
-├── profile.jpg
-├── resume.pdf
-├── robots.txt
-└── sitemap.xml
-```
-
 ## 🚀 Deployment
 
 This portfolio is hosted using GitHub Pages from the `main` branch and repository root.
