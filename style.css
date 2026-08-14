@@ -2,3 +2,55 @@
 @media(prefers-reduced-motion:no-preference){.btn{transition:transform .2s}.project,.skill-grid article,.experience-card{transition:transform .2s,border-color .2s}.project:hover,.skill-grid article:hover,.experience-card:hover{transform:translateY(-4px);border-color:#3b4560}}
 
 .section-subtext{margin:10px 0 0;color:var(--muted);max-width:700px;font-size:15px}.skill-grid-visual{grid-template-columns:repeat(4,1fr);gap:18px}.skill-card{min-height:170px!important;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:22px!important;background:#141d31!important;border:1px solid #2b3b58!important;border-radius:16px!important;box-shadow:0 12px 30px rgba(0,0,0,.12)}.skill-card:hover{transform:translateY(-5px)!important;border-color:#405777!important}.skill-icon{width:64px;height:64px;display:grid;place-items:center;font-size:48px;line-height:1;margin-bottom:14px}.skill-icon i{font-size:48px}.skill-card h3{font-size:16px!important;margin:0 0 4px!important}.skill-card p{font-size:12px!important;color:#8f9ab3!important;margin:0!important}.icon-java{font-size:38px}.icon-kotlin{font-size:38px;font-weight:900;color:#a98bff}.icon-db{font-size:20px;font-weight:800;border:2px solid #5e8cff;border-radius:12px;color:#79a1ff}.timeline-item:last-child{padding-bottom:0}@media(max-width:1000px){.skill-grid-visual{grid-template-columns:repeat(3,1fr)}}@media(max-width:800px){.skill-grid-visual{grid-template-columns:repeat(2,1fr)}}@media(max-width:480px){.skill-grid-visual{grid-template-columns:1fr 1fr;gap:10px}.skill-card{min-height:145px!important;padding:16px!important}.skill-icon{width:52px;height:52px;font-size:38px;margin-bottom:10px}.skill-icon i{font-size:38px}.skill-card h3{font-size:14px!important}}
+
+/* QR Token App Screenshots */
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.screenshot-card {
+  margin: 0;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.screenshot-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.screenshot-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.screenshot-card figcaption {
+  padding: 10px 4px 2px;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #c7cedd;
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .screenshot-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 560px) {
+  .screenshot-grid {
+    grid-template-columns: 1fr;
+  }
+}
